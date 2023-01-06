@@ -4,7 +4,7 @@
 
 Click on the link below to open the flashcard app:
 
-https://www.netlify.com
+https://transcendent-kitten-6d66d8.netlify.app
 
 
 
@@ -31,7 +31,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm start
 ```
 
 # About the flashcard app:
