@@ -1,3 +1,5 @@
+# AlmaBetter's Capstone Project - Flashcard Generator
+
 ## Deployment Link
 
 Click on the link below to open the flashcard app:
@@ -32,7 +34,7 @@ Start the server
   npm run start
 ```
 
-# AlmaBetter's Capstone Project - Flashcard Generator
+# About the flashcard app:
 
 A flashcard generator web application created using ReactJs.
 
@@ -43,7 +45,6 @@ What is a flashcard?
 - It is also known as an index card.
 
 
-About the flashcard app:
 
 > The flashcard app contains mainly 3 pages:
 
