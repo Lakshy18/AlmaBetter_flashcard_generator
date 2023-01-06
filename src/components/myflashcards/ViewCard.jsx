@@ -50,7 +50,7 @@ const ViewCard = () => {
     <div className="mb-12">
       {/* flash cards maincontainer */}
       {state.groupData.map((elem, index) => {
-        return index === state.showNumber ? (
+        return index === state.showNum ? (
           <div key={index}>
             {/* Heading maincontainer */}
             <div>
@@ -65,6 +65,7 @@ const ViewCard = () => {
                 {elem.group.description}
               </p>
             </div>
+            
             {/* Carousel main container */}
             <div className="flex flex-col items-center justify-center lg:items-start my-11 lg:flex-row lg:justify-between sm:items-center sm:justify-center sm:flex-col mb-14">
               {/* Cards list */}
@@ -109,7 +110,7 @@ const ViewCard = () => {
                     >
 
                       <div className="w-full text-justify sm:mt-6 lg:mt-0 sm:w-full lg:w-5/5">
-                        <p>{childElement.defination}</p>
+                        <p>{childElement.definition}</p>
                       </div>
                     </div>
                   ) : null;
@@ -182,7 +183,7 @@ const ViewCard = () => {
                 style={{ color: copyAlertColor }}
               />
               <BsShare className="text-2xl ml-4 cursor-pointer" />
-              <CgClose className="closbtn" onClick={shareHandlerClose} />
+              <CgClose className="closebtn" onClick={shareHandlerClose} />
             </p>
           </div>
         </div>

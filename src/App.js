@@ -9,7 +9,7 @@ import ViewCard from "./components/myflashcards/ViewCard";
 import FormValidation from "./components/flashcard/FormValidation";
 
 function App() {
-  const flashcardstate = useSelector((state) => state.Reducer.showNumber);
+  const flashcardstate = useSelector((state) => state.Reducer.showNum);
   return (
     <BrowserRouter>
       <div className="h-screen">

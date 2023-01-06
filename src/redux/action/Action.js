@@ -1,10 +1,10 @@
-import { ADD_GROUP, ADD_INPUT_BOX, DELETE_INPUT_BOX, SHOW_FLASH_CARDS} from '../Type'
+import { ADD_GROUP, ADD_INPUT_BOX, DELETE_INPUT_BOX, SHOW_FLASH_CARDS} from '../Types'
 
 // addInputBox function will be used to add the function box.
 export const addInputBox = (data) => {
   return {
     type:ADD_INPUT_BOX,
-    payloade : data
+    payload : data
   }
 }
 
@@ -13,7 +13,7 @@ export const addInputBox = (data) => {
 export const deleteInputBox = (data) => {
   return {
     type:DELETE_INPUT_BOX,
-    payloade : data
+    payload : data
   }
 }
 
@@ -21,7 +21,7 @@ export const deleteInputBox = (data) => {
 export const addGroup = (data) => {
   return {
     type:ADD_GROUP,
-    payloade : data
+    payload : data
   }
 }
 
@@ -30,7 +30,7 @@ export const showFalshCard = (data)=>{
   
   return {
     type:SHOW_FLASH_CARDS,
-    payloade:data
+    payload:data
   }
 }
 

@@ -8,7 +8,6 @@ import { deleteInputBox, addGroup } from "../../redux/action/Action";
 import { useDispatch, useSelector } from "react-redux";
 
 const MainFlashcardCreator = () => {
-
   // components start
   const dispatch = useDispatch();
   const state = useSelector((state) => state.Reducer);
@@ -128,7 +127,7 @@ const MainFlashcardCreator = () => {
             <div className="text-red-600 text-sm">{termErr}</div>
 
             {state.inputData.length >= 0 &&
-              state.inputData.map((element, index) => (
+              state.inputData.map((elem, index) => (
                 <div
                   key={index}
                   className="mb-4 flex flex-col sm:justify-start sm:flex-row "
@@ -150,7 +149,7 @@ const MainFlashcardCreator = () => {
                       value={
                         index === editInputValue
                           ? formik.values.term
-                          : element.term
+                          : elem.term
                       }
                       onChange={formik.handleChange}
                       placeholder="Write title here..."
@@ -175,7 +174,7 @@ const MainFlashcardCreator = () => {
                       value={
                         index === editInputValue
                           ? formik.values.term
-                          : element.definition
+                          : elem.definition
                       }
                       onChange={formik.handleChange}
                       placeholder="Write definition here..."

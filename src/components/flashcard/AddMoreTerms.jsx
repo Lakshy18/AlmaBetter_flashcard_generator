@@ -8,14 +8,14 @@ const AddMoreTerms = () => {
   const state = useSelector((state) => state.Reducer.inputData);
 
   // onchange handler
-  const onchangeHanlder = () => {
+  const onchangeHandler = () => {
     console.log("onchange");
   };
 
   return (
     <React.Fragment>
       {state.length > 0 &&
-        state.map((element, index) => (
+        state.map((elem, index) => (
           <div
             key={index}
             className="mb-4 flex flex-col sm:justify-start sm:flex-row "
@@ -35,8 +35,8 @@ const AddMoreTerms = () => {
                 type="text"
                 id="term"
                 name="term"
-                value={element.term}
-                onChange={onchangeHanlder}
+                value={elem.term}
+                onChange={onchangeHandler}
                 placeholder="Enter the term title here."
                 className="py-4 px-5 outline outline-2 rounded outline-gray-400 border-r-8"
               />
@@ -52,8 +52,8 @@ const AddMoreTerms = () => {
               <textarea
                 id="define"
                 name="definition"
-                value={element.definition}
-                onChange={onchangeHanlder}
+                value={elem.definition}
+                onChange={onchangeHandler}
                 placeholder="Enter the term definition here."
                 className="py-1 px-5 outline outline-2 rounded outline-gray-400 border-r-8"
               ></textarea>
