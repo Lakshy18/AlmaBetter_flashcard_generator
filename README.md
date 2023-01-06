@@ -1,3 +1,37 @@
+## Deployment Link
+
+Click on the link below to open the flashcard app:
+
+https://www.netlify.com
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/imvivekanand/AlmaBetter_Flashcard_Capstone_Project.git
+```
+
+Go to the project directory
+
+```bash
+  cd AlmaBetter_Flashcard_Capstone_Project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
 # AlmaBetter's Capstone Project - Flashcard Generator
 
 A flashcard generator web application created using ReactJs.
@@ -50,41 +84,6 @@ Q. How to view the card details?
 - Share your flashcard
 
 
-
-## Deployment Link
-
-Click on the link below to open the flashcard app:
-
-https://www.netlify.com
-
-
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/imvivekanand/AlmaBetter_Flashcard_Capstone_Project.git
-```
-
-Go to the project directory
-
-```bash
-  cd AlmaBetter_Flashcard_Capstone_Project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
 
 ## Tech Stack
