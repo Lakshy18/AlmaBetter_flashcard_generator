@@ -112,4 +112,3 @@ React, Redux, TailwindCSS, React-Redux, Formik, React-Icons, React-Router-DOM
 
 ## 🛠 Skills
 ReactJs, Javascript, HTML, CSS
-

@@ -33,6 +33,3 @@ export const showFalshCard = (data)=>{
     payload:data
   }
 }
-
-
-
