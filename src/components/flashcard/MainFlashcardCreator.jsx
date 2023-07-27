@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import TextField from "./TextField";
 import { useFormik, Form, Field } from "formik";
 import { AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
@@ -11,6 +11,7 @@ const MainFlashcardCreator = () => {
   // components start
   const dispatch = useDispatch();
   const state = useSelector((state) => state.Reducer);
+  const editRef = useRef(null)
 
   //initial values ( formik )
   const initialValues = {
