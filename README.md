@@ -3,13 +3,13 @@
 
 ##### Click on the link below to open the flashcard app:
 
-
+https://flashcard-generator-bb814.web.app/
 
 ## Run Locally
 Clone the project
 
 ```
- git clone https://github.com/llll/AlmaBetter_Flashcard_Capstone_Project.git
+ git clone https://github.com/Lakshy18/AlmaBetter_flashcard_generator.git
 ```
 Go to the project directory
 
